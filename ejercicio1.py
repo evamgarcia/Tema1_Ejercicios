@@ -5,4 +5,5 @@
 #Para voltear una cadena rápidamente utilizando slicing podemos utilizar un tercer índice -1: cadena[::-1]
 cadena = "zeréP nauJ,01"
 cadena2 = cadena[::-1]
-print(cadena2[2] + "ha sacado un" + cadena2[1]  + "de nota")
+cadena2 = cadena2.split(',')
+print(cadena2[1] + " ha sacado " + cadena2[0] + " de nota")
