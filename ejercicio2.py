@@ -9,6 +9,7 @@ from sys import float_repr_style
 
 
 numero_magico = 12345679
-numero_usuario = input(float("introduce un numero entre el 1 y el 9: "))
-numero_usuario2 = numero_usuario*9 
-print(numero_usuario2)
+numero_usuario = input(int("introduce un numero entre el 1 y el 9: "))
+numero_usuario2 = numero_usuario * 9
+numero_magico2 = numero_magico * numero_usuario2
+print(numero_magico2)
