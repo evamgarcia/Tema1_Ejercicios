@@ -9,7 +9,7 @@
 #Sugerencia
 #Para ordenar una lista automáticamente puedes utilizar el método .sort().
 
-lista = ['3', '5', '4', '8', '6', '9']
+lista = [3, 5, 4, 8, 6, 9]
 pares = []
 impares = []
 lista.sort()
@@ -20,3 +20,4 @@ for i in lista:
     else:
         impares.append(i)
 print(pares)
+print(impares)
