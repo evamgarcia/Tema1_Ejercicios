@@ -7,7 +7,7 @@
 #ordenadas pero sin los números de orden?
 #Sugerencia
 #Para ordenar automáticamente una lista es posible utilizar el método .sort(), 
-# deberias probarlo.
+#deberias probarlo.
 
 
 
